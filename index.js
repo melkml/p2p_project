@@ -10,7 +10,7 @@ const peer = new Peer(port);
 
 process.argv.slice(2).forEach( anotherPeerAddress => peer.connectTo(anotherPeerAddress) );
 peer.onConnection = socket => {
-    const message = "Hi !! I'm on port " + port;
+    const message = "Diga oi!";
     const signature = sha(message + myKey + Date.now());
     receivedMessageSignatures.push(signature);
     const firstPayload = {signature, message}
@@ -29,6 +29,6 @@ peer.onData = (socket, data) => {
     if(receivedMessageSignatures.includes(payload.signature))
         return;
     receivedMessageSignatures.push(payload.signature)
-    console.log("recebido> ", payload.message)
+    console.log("> ", payload.message)
     peer.broadcast(json);
 };

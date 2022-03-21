@@ -7,7 +7,7 @@ module.exports = class Peer {
     this.connections = [];
     const server = net.createServer( (socket) => {
         this.onSocketConnected(socket)});
-    server.listen(port, () => console.log("Ouvindo porta " + port) )
+    server.listen(port, () => console.log("Servidor aberto! Aguardando algúem se conectar..."))
   }
 
   connectTo(address) {
@@ -34,7 +34,7 @@ module.exports = class Peer {
    onConnection(socket) {}
 
    onData(socket, data) {
-      console.log("received: ", data.toString())
+      console.log("> ", data.toString())
 }
 
    broadcast(data) {
