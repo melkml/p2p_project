@@ -1,0 +1,22 @@
+{
+  "name": "p2p_chat",
+  "version": "1.0.0",
+  "description": "Simulação de uma transmissão de vídeo P2P para a disciplina de Redes de Computadores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melkml/p2p_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melkml/p2p_project/issues"
+  },
+  "homepage": "https://github.com/melkml/p2p_project#readme",
+  "dependencies": {
+    "sha256": "^0.2.0"
+  }
+}
