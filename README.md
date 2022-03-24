@@ -1,2 +1,2 @@
 # p2p_project
-Simulação de uma transmissão de vídeo P2P para a disciplina de Redes de Computadores.
+Implementação de um chat P2P em rede local para a disciplina de Redes de Computadores.
