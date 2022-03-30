@@ -1,4 +1,4 @@
-# Chat P2P
+# P2P Chat
 
 An implementation of a P2P chat on a local network using the JavaScript Net Module.
 
