@@ -21,4 +21,4 @@ PORT=3001 node index.js localhost:3000
 
 # Credit
 
-This project is an implementation made from [Creating P2P chat with Nodejs](https://medium.com/@gregorygregio/criando-chat-p2p-com-nodejs-120bf7addb7c). Full credit to the creators.
+This project is an implementation made from [Creating P2P chat with Nodejs](https://medium.com/@gregorygregio/criando-chat-p2p-com-nodejs-120bf7addb7c).
